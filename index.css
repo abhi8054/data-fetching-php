@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+.container{
+    min-width: 80%;
+    max-width: 80%;
+    min-height: 100vh;
+    max-height: 100vh;
+    /* background-color: grey; */
+    padding: 1.5rem;
+    background-color: white;
+
+}
+.tab-container .buttons{
+    margin-top: 1rem;
+    display: flex;
+    border-bottom:1px solid grey ;
+    /* justify-content: space-around; */ 
+}
+.tab-container .buttons button{
+    border: none;
+    padding: 0.7rem 1rem;
+    font-size: 0.8rem;
+    background-color: white;
+    cursor: pointer;
+}
+.tab-container .buttons button:hover{
+    color: red;
+    background-color: rgb(200, 199, 199);
+}
+.tab-container .tabs .tab{
+    position: relative;
+    min-width: 100%;
+    /*border: 1px solid red;*/
+    min-height: 71vh;
+    background-color: rgb(200, 199, 199);
+}
+.edit-delete{
+    position: absolute;
+    bottom: 1rem;
+    left:1rem;
+}
+.tabs .tab .data{
+    padding: 1rem;
+    line-height: 2.5rem;
+}
+.tabs .tab .data h2{
+    text-align: center;
+}
+.img img,.img1 img{
+    width:90px;
+    height:90px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.img{
+    position: absolute;
+    right: 3%;
+    top:7%
+}
+#wd p,#d p{
+    line-height: initial;
+    /*width: 50%;*/
+}
+#over{
+    /*border: 1px solid red;*/
+    display: flex;
+    gap:0.5rem;
+}
+#over div{
+    width: 33.33%;
+    position: relative;
+}
+#sd{
+    line-height: initial;
+}
+
+#over div .img1{
+    position: absolute;
+    right: 5%;
+    top:0;
+}
+.tabs .tab .edit-delete button{
+    padding: 0.4rem 1rem;
+    border: 1px solid white;
+    background-color: darkorange;
+    color: white;
+}
+#tab1,#tab2{
+    height: 76.4vh;
+}
